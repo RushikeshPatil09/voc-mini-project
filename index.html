@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animated Recipe Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="card">
+    <img src="Images/cake.jpg" alt="Chocolate Cake">
+    <div class="content">
+      <h2 class="title">Chocolate Cake</h2>
+      <p><strong>Prep Time:</strong> 45 mins | <strong>Serving:</strong> 4</p>
+
+      <div class="toggle-section">
+        <h3 onclick="toggleList('ingredients')">🍫 Ingredients</h3>
+        <ul id="ingredients">
+          <li>1 cup flour</li>
+          <li>1/2 cup cocoa powder</li>
+          <li>1/2 cup sugar</li>
+          <li>1/2 tsp baking powder</li>
+          <li>2 eggs</li>
+        </ul>
+      </div>
+
+      <div class="toggle-section">
+        <h3 onclick="toggleList('steps')">📝 Steps</h3>
+        <ul id="steps" class="steps">
+          <li>Preheat the oven to 350°F.</li>
+          <li>Mix dry ingredients together.</li>
+          <li>Whisk in the eggs.</li>
+          <li>Pour into a baking dish.</li>
+          <li>Bake for 30 minutes.</li>
+        </ul>
+      </div>
+
+      <div class="buttons">
+        <button onclick="startCooking()">Start Cooking</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <div id="celebration">🎉 Dish Completed! Enjoy your meal! 🎉</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
