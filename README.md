@@ -39,7 +39,7 @@ This is a frontend mini project developed during my VOC internship. It demonstra
 
 ## 📷 Screenshots
 
-> ✨ Replace the image links below with the actual ones you uploaded via GitHub drag-drop or in repo folder
+
 
 ![Screenshot 1](![Screenshot 2025-06-23 174137](https://github.com/user-attachments/assets/41fed70e-1805-4e98-9922-8534452001fa)
 )  
@@ -52,7 +52,7 @@ This is a frontend mini project developed during my VOC internship. It demonstra
 
 [Click here to view live project](https://rushikeshpatil09.github.io/voc-mini-project/)
 
-*👉 Only works if deployed on GitHub Pages. Let me know if you want to host it — I’ll guide you in 2 minutes.*
+
 
 ---
 
